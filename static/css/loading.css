@@ -5,20 +5,20 @@
     bottom: 0;
     right: 0;
     left: 0;
-    background-color: white;
+    background-color: black;
     opacity: 0.4;
     z-index: 1000;
 }
 
 /* 动图样式 */
 .loading .gif {
-    height: 50px;
-    width: 50px;
-    background: url('/static/img/loading.gif');
+    height: 32px;
+    width: 32px;
+    background: url('/static/img/loader.gif');
     position: fixed;
     left: 50%;
     top: 50%;
-    margin-left: -25px;
-    margin-top: -25px;
+    margin-left: -16px;
+    margin-top: -16px;
     z-index: 1001;
 }
